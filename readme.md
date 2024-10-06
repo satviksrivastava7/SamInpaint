@@ -72,10 +72,18 @@ Demonstration of some generated outputs.
    python -m pip install -r lama/requirements.txt 
    ```
 4. Install the desired SAM model checkpoint check points. The script uses __"sam_vit_h_4b8939.pth"__ check points.
-5. Place the data in the respective folder.
-6. Run the command.
+5. Place the data in the same directory as the main.py
+6. Run the following command for segmenting an input image.
     ```
-    python yolo_script.py --image ./example.jpg --class "chair" --output ./generated.png
+    python main.py --task segment --image ./example.jpg --class shelf --output ./generated.png
+    ```
+7. Run the following command to reposition any subject(segment) in the input image.
+    ```
+    python main.py --task edit --image ./example.jpg --x 100 --y 50 --output ./repositioned.png
+    ```
+8. Run the following command for editing an input image for any given prompt.
+    ```
+    python main.py --task edit --image ./example.jpg --background "a beach setting" --output ./new_background.png
     ```
 
 ## References
