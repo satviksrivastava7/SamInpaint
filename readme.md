@@ -1,4 +1,5 @@
 # SAM Inpaint - A segmented approach towards AI based image editing 
+<img src="assets/samInpaint.png" alt="Original" width="auto" height="auto" style="margin: 0px;">
 
 ## About this repository
 
