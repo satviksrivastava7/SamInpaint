@@ -25,7 +25,9 @@ To complete this assignment, I used a combination of pre-trained generative AI m
 
 __Task 1: Object Segmentation__
 <img src="assets/sam.png" alt="Original" width="auto" height="auto" style="margin: 0px;">
+
 <br/>
+
 To segment an object from an image based on a user-provided class prompt, I utilized the Segment Anything Model (SAM). Here’s how the process works:
 1. Image and Prompt Input: The user provides an image and a class prompt (e.g., "shelf"). This prompt helps SAM focus on the relevant object in the scene.
 2. SAM Model: The SAM model, pre-trained on a variety of datasets, generates a segmentation mask for the object described in the prompt. The model is able to generalize well to different objects and images, so no fine-tuning was required.
@@ -35,7 +37,9 @@ To segment an object from an image based on a user-provided class prompt, I util
 
 __Task 2: Object Repositioning__
 <img src="assets/inpaint.png" alt="Original" width="auto" height="auto" style="margin: 0px;">
+
 <br/>
+
 Once the object is segmented, the second task involves moving it to a different location in the image. For this, I used Stable Diffusion Inpainting to seamlessly handle the removal and repositioning:
 1. Object Removal: The segmented object is removed from its original position using Stable Diffusion Inpainting. This model reconstructs the background behind the object, filling in the missing details to make the removal look natural.
 2. Object Repositioning: The object is then shifted to a new position in the image, based on user input for the x and y pixel shifts. This allows for flexibility in adjusting the object's placement.
@@ -132,8 +136,13 @@ Demonstration of some generated outputs.
 
 ## Challenges
 
+<div align="center">
+  <img src="assets/resource.jpeg" alt="Computation resource max utilization" width="750" height="auto">
+</div>
+
+<br/>
+
 Throughout the completion of this assignment, several challenges were encountered:
-<img src="assets/resource.jpeg" alt="Computation resource max utilization" width="auto" height="auto" style="margin: 0px;">
 
 + __Computation Resource Limitation__:
 One of the primary challenges was the limited computational resources available. Running complex models like SAM and Stable Diffusion Inpainting, especially for high-resolution images, can be highly resource-intensive. Given that I used Colab and Kaggle, which have time and resource constraints, the project had to be optimized to ensure successful execution within the provided limits.
@@ -174,3 +183,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 * [Stable Diffusion Inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting)
 * [Segment anything model (SAM)](https://segment-anything.com)
+* [My Google Colab Notebook](https://colab.research.google.com/drive/1UOI0SRE8i9eSfPNkFuaOuD7QHAU_O46G?usp=sharing)
+* [Satvik Srivastava Portfolio](https://bento.me/satviksrivastava7)
+* [Satvik Srivastava Linkedin](https://linkedin.com/in/satviksrivastava7)
