@@ -133,7 +133,7 @@ Demonstration of some generated outputs.
 ## Challenges
 
 Throughout the completion of this assignment, several challenges were encountered:
-<img src="assets/resource.png" alt="Computation resource max utilization" width="auto" height="auto" style="margin: 0px;">
+<img src="assets/resource.jpeg" alt="Computation resource max utilization" width="auto" height="auto" style="margin: 0px;">
 
 + __Computation Resource Limitation__:
 One of the primary challenges was the limited computational resources available. Running complex models like SAM and Stable Diffusion Inpainting, especially for high-resolution images, can be highly resource-intensive. Given that I used Colab and Kaggle, which have time and resource constraints, the project had to be optimized to ensure successful execution within the provided limits.
