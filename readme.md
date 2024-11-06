@@ -5,7 +5,7 @@
 
 ## About this repository
 
-This repository documents and maintains the solution for the Scene-Composition Assignment (H3) provided by Avataar. Completing this task has been an invaluable learning experience, allowing me to explore advanced generative AI techniques for object segmentation and image manipulation. By working through real-world applications such as repositioning objects in product scenes, I gained hands-on experience with cutting-edge models like SAM (Segment Anything Model) and Stable Diffusion Inpainting. This project showcases my ability to creatively solve complex image-editing tasks using AI tools and existing models. 
+This repository documents and maintains the solution for the Scene-Composition Generative AI Model. This project has been an invaluable learning experience, allowing me to explore advanced generative AI techniques for object segmentation and image manipulation. By working through real-world applications such as repositioning objects in product scenes, I gained hands-on experience with cutting-edge models like SAM (Segment Anything Model) and Stable Diffusion Inpainting. This project showcases my ability to creatively solve complex image-editing tasks using AI tools and existing models. 
 
 <br/>
 
